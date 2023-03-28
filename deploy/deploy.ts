@@ -8,7 +8,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   console.log(`Running deploy script for the Greeter contract`);
 
   // Initialize the wallet.
-  const wallet = new Wallet("Здесь впишите свой приватный ключ от мм, ковычки оставить");
+  const wallet = new Wallet("d766492333f8d4ea9914a94955f7b48bb484558aba58ea4a5f3c8c4453eb1f42");
 
   // Create deployer object and load the artifact of the contract you want to deploy.
   const deployer = new Deployer(hre, wallet);
